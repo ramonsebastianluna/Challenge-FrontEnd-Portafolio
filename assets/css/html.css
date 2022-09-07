@@ -1,0 +1,10 @@
+* {
+    font-family: var(--fuente);
+    color: var(--color-fuente);
+    font-size: var(--tamaño-fuente);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 50px; /*Compensa el espacio del header*/
+}

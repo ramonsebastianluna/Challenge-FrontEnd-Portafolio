@@ -1,0 +1,48 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-de-fondo);
+    position: fixed;
+    width: 84%;
+    top: 0;
+    z-index: 1;
+    padding: 0 8%;
+}
+
+.header-container__header {
+    display: flex;
+    align-items: center;
+}
+
+.header-container__header__img {
+    width: 22px;
+    height: 22px;
+    background: url("/assets/img/vector.png") center / cover no-repeat;
+    margin-right: 5px;
+}
+
+.header-container__header__mi-nombre {
+    font-weight: bold;
+}
+
+.header-container__nav {
+    display: flex;
+}
+
+.header-container__nav__links {
+    display: flex;
+    padding: 0;
+}
+
+.header-container__nav__links__item {
+    list-style: none;
+}
+
+.header-container__nav__links__item a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header-container__nav__links__item a:hover {
+    text-decoration: underline;
+}

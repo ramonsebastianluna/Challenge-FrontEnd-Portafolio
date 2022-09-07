@@ -1,0 +1,13 @@
+:root {
+    /*Backgrounds*/    
+    --color-de-fondo: #F5F5F5;
+    --color-de-fonfo-2: #EAF2FD;
+    --color-de-link: #000000;
+    --color-sections: #EAF2FD;
+    
+
+    /*Fuentes*/
+    --fuente: 'Raleway';
+    --color-fuente: #464646;
+    --tamaño-fuente: 16px;
+}
