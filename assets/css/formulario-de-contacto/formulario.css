@@ -1,4 +1,4 @@
-.container-form {
+De.container-form {
     display: flex;
     padding: 10px 8% 10px 8%;
 }
@@ -13,7 +13,7 @@
 }
 
 .container-form__img {
-    background: url("./assets/img/contact_image.png") center / cover no-repeat;
+    background: url("../assets/img/contact_image.png") center / cover no-repeat;
     width: 420px;
     height: 520px;
 }
