@@ -36,17 +36,17 @@
 }
 
 #ifts {
-    background: url(/assets/img/logo_ifts21.png) center / cover no-repeat;
+    background: url("../../img/logo_ifts21.png") center / cover no-repeat;
     background-color: var(--color-fuente);
 }
 
 #alura {
-    background: url(/assets/img/alura_logo.png) center / contain no-repeat;
+    background: url("../../img/alura_logo.png") center / contain no-repeat;
     background-color: #FFFFFF;
 }
 
 #udemy {
-    background: url(/assets/img/udemy.jpg) center / contain no-repeat;
+    background: url("../../img/udemy.jpg") center / contain no-repeat;
     background-color: #FFFFFF;
 }
 

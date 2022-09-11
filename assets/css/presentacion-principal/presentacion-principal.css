@@ -30,7 +30,7 @@
 }
 
 .item__img {
-    background: url(/assets/img/arrow.png) center / cover no-repeat;
+    background: url("../../img/arrow.png") center / cover no-repeat;
     width: 11px;
     height: 11px;
     margin-left: 5px;
@@ -45,7 +45,7 @@
 }
 
 .presentacion-container__imagen__mi-foto {
-    background: url(/assets/img/Seba.png) center / cover no-repeat;
+    background: url("../../img/Seba.png") center / cover no-repeat;
     width: 250px;
     height: 250px;
     border-radius: 200px;

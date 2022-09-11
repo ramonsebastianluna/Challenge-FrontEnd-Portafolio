@@ -23,23 +23,23 @@
 }
 
 #encriptador {
-    background: url(/assets/img/encriptador.jpg) center / contain no-repeat;
+    background: url("../../img/encriptador.jpg") center / contain no-repeat;
     background-color: var(--color-fuente);
 }
 
 #ahorcado {
-    background: url(/assets/img/ahoracado.jpg) center / contain no-repeat;
+    background: url("../../img/ahoracado.jpg") center / contain no-repeat;
     background-color: var(--color-fuente);
     order: 1;
 }
 
 #crud {
-    background: url(/assets/img/crud.jpg) center / contain no-repeat;
+    background: url("../../img/crud.jpg") center / contain no-repeat;
     background-color: var(--color-fuente);
 }
 
 #facebook {
-    background: url(/assets/img/clon-facebook.jpg) center / contain no-repeat;
+    background: url("../../img/clon-facebook.jpg") center / contain no-repeat;
     background-color: var(--color-fuente);
     order: 1;
 }

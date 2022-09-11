@@ -17,7 +17,7 @@
 .header-container__header__img {
     width: 22px;
     height: 22px;
-    background: url("/assets/img/vector.png") center / cover no-repeat;
+    background: url("../../img/vector.png") center / cover no-repeat;
     margin-right: 5px;
 }
 

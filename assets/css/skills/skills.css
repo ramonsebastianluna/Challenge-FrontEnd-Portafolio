@@ -34,7 +34,7 @@
 }
 
 .skills-container__box__item__img {
-    background: url(/assets/img/css_icon.png) center / cover no-repeat;
+    background: url("../../img/css_icon.png") center / cover no-repeat;
     width: 20px;
     height: 30px;
 }
