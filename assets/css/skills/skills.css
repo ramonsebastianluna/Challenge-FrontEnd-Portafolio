@@ -27,16 +27,46 @@
     height: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin: 0;
     background-color: #FFFFFF;
     padding: 10px;
 }
 
-.skills-container__box__item__img {
-    background: url("../../img/css_icon.png") center / cover no-repeat;
+#html {
+    background: url("../../img/bxl-html5.svg") center / cover no-repeat;
     width: 20px;
     height: 30px;
+}
+
+#css {
+    background: url("../../img/bxl-css3.svg") center / cover no-repeat;
+    width: 20px;
+    height: 30px;
+}
+
+#javascript {
+    background: url("../../img/bxl-javascript.svg") center / cover no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+#mysql {
+    background: url("../../img/database.png") center / cover no-repeat;
+    width: 22px;
+    height: 22px;
+}
+
+#scrum {
+    background: url("../../img/scrum.png") center / cover no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+#ingles {
+    background: url("../../img/ingles.png") center / cover no-repeat;
+    width: 25px;
+    height: 25px;
 }
 
 .skills-container__box__item__titulo {

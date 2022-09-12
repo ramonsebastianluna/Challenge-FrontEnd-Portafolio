@@ -27,15 +27,45 @@
     height: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin: 0;
     background-color: #FFFFFF;
     padding: 10px;
 }
 
-.hobbies-container__box__item__img {
-    background: url("../../img/css_icon.png") center / cover no-repeat;
-    width: 20px;
+#guitarra {
+    background: url("../../img/guitar.png") center / cover no-repeat;
+    width: 27px;
+    height: 27px;
+}
+
+#bici {
+    background: url("../../img/bici.png") center / cover no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+#naturaleza {
+    background: url("../../img/naturaleza.png") center / cover no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+#viajar {
+    background: url("../../img/viajar.png") center / cover no-repeat;
+    width: 35px;
+    height: 30px;
+}
+
+#cod {
+    background: url("../../img/cod.png") center / cover no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+#programar {
+    background: url("../../img/programar.png") center / cover no-repeat;
+    width: 30px;
     height: 30px;
 }
 
