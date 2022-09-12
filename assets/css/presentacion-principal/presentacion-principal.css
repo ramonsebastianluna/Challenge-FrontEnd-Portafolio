@@ -23,8 +23,6 @@
 }
 
 .presentacion-container__presentacion__link-redes__item {
-    display: flex;
-    align-items: center;
     list-style: none;
     margin-right: 20px;
 }
@@ -38,6 +36,8 @@
 
 .item__a {
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .item__a:hover {
