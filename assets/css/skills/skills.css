@@ -72,3 +72,15 @@
 .skills-container__box__item__titulo {
     margin: 0;
 }
+
+@media only screen and (max-width: 420px) {
+    .skills-container {
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .skills-container__box__item {
+        width: 40%;
+        margin-bottom: 10px;
+    }
+}

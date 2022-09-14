@@ -2,3 +2,9 @@ body {
     background-color: var(--color-de-fondo);
     padding-top: 50px;
 }
+
+@media only screen and (max-width: 380px) {
+    body {
+        padding-top: 20px;
+    }
+}

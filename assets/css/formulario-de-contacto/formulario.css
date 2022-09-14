@@ -1,6 +1,7 @@
 .container-form {
     display: flex;
     padding: 10px 8% 10px 8%;
+    background-color: var(--color-de-fondo-2);
 }
 
 .container-form__form__titulo {
@@ -55,4 +56,35 @@
 
 .container-form__form__enviar:active {
     background-color: var(--color-buttonA-active);
+}
+
+@media only screen and (max-width: 420px) {
+    .container-form {
+        padding: 0 20px;
+    }
+
+    .container-form__img {
+        display: none;
+    }
+
+    .container-form__form {
+        padding: 0;
+    }
+
+    .container-form__form__titulo {
+        padding: 15px 0;
+    }
+
+    .container-form__form__text {
+        padding-bottom: 10px;
+    }
+
+    .container-form__form__text-area {
+        height: 150px;
+    }
+
+    .container-form__form__enviar {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
 }

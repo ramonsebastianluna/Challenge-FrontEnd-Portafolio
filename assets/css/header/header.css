@@ -46,3 +46,17 @@
 .header-container__nav__links__item a:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 420px) {
+    .header-container {
+        padding: 0 20px 20px 20px;
+        position: static;
+        z-index: 0;
+        display: inline-block;
+        width: auto;
+    }
+
+    .header-container__nav {
+        display: none;
+    }
+}

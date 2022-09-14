@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0 8% 150px 8%;
-    background-color: var(--color-de-fonfo-2);
+    background-color: var(--color-de-fondo-2);
 }
 
 .formacion-container__titulo {
@@ -57,4 +57,24 @@
 
 .formacion-container__lista__item__fecha {
     margin: 0;
+}
+
+@media only screen and (max-width: 420px) {
+    .fomacion-container {
+        padding: 0 20px;
+    }
+
+    .formacion-container__lista__item {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .formacion-container__lista__item__img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    #ifts {
+        background-size: contain;
+    }
 }

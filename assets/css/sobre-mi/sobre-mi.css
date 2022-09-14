@@ -1,6 +1,6 @@
 .sobre-mi-container {
     height: 50vh;
-    background-color: var(--color-de-fonfo-2);
+    background-color: var(--color-de-fondo-2);
     display: flex;
     align-items: center;
     padding: 0 8%;
@@ -17,4 +17,20 @@
 .sobre-mi-container__sobre-mi__parrafo {
     font-size: 19px;
     text-align: justify;
+}
+
+@media only screen and (max-width: 420px) {
+    .sobre-mi-container {
+        height: auto;
+        padding: 0 20px;
+    }
+    
+    .sobre-mi-container__sobre-mi {
+        width: auto;
+    }
+
+    .sobre-mi-container__sobre-mi__parrafo {
+        text-align: left;
+        padding-right: 10px;
+    }
 }
