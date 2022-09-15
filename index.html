@@ -278,15 +278,20 @@
     <!-- Formulario de contacto -->
     <section class="container-form" id="contacto">
         <div class="container-form__img"></div>
-        <form action="" class="container-form__form">
+
+        <!--Implemento la API en el action del form-->
+        <form action="https://formsubmit.co/c4249ddf312bc4e6d05c1332eb6bca19" method="POST" class="container-form__form">
             <h3 class="container-form__form__titulo">Contacto</h3>
             <p class="container-form__form__text">¿Quieres contactarme?</p>
             <p class="container-form__form__text">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
-            <input class="container-form__form__input" type="text" placeholder="Nombre">
-            <input class="container-form__form__input" type="email" placeholder="E-mail">
-            <input class="container-form__form__input" type="text" placeholder="Asunto">
-            <textarea class="container-form__form__text-area" placeholder="Mensaje"></textarea>
+            <input class="container-form__form__input" type="text" name="name" placeholder="Nombre" required>
+            <input class="container-form__form__input" type="email" name="email" placeholder="E-mail" required>
+            <input class="container-form__form__input" type="text" name="asunto" placeholder="Asunto" required>
+            <textarea class="container-form__form__text-area" name="mensaje" placeholder="Mensaje" required></textarea>
             <input class="container-form__form__enviar" type="submit" value="Enviar mensaje">
+
+            <!--Configuración API correo-->
+            <input type="hidden" name="_next" value="https://ramonsebastianluna.github.io/Challenge-FrontEnd-Portafolio/">
         </form>
     </section>
 
