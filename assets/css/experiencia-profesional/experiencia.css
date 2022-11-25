@@ -44,6 +44,11 @@
     order: 1;
 }
 
+#pizzeria {
+    background: url("../../img/mi-pizzeria.jpg") center / contain no-repeat;
+    background-color: var(--color-fuente);
+}
+
 .experiencia-container__experiencia__descripcion {
     display: flex;
     flex-direction: column;
