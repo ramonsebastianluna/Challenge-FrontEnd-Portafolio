@@ -39,15 +39,10 @@
     background-color: var(--color-fuente);
 }
 
-#facebook {
-    background: url("../../img/clon-facebook.jpg") center / contain no-repeat;
-    background-color: var(--color-fuente);
-    order: 1;
-}
-
 #pizzeria {
     background: url("../../img/mi-pizzeria.jpg") center / contain no-repeat;
     background-color: var(--color-fuente);
+    order: 1;
 }
 
 .experiencia-container__experiencia__descripcion {
@@ -116,7 +111,7 @@
         margin-bottom: 60px;
     }
 
-    #ahorcado, #facebook {
+    #ahorcado, #pizzeria {
         order: 0;
     }
 
