@@ -1,5 +1,6 @@
 .container-form {
     display: flex;
+    justify-content: center;
     padding: 10px 8% 10px 8%;
     background-color: var(--color-de-fondo-2);
 }

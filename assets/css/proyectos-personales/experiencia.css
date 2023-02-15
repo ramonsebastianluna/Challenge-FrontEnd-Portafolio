@@ -14,6 +14,7 @@
 
 .experiencia-container__experiencia {
     display: flex;
+    justify-content: center;
     margin: 10px 0;
 }
 
@@ -43,6 +44,11 @@
     background: url("../../img/mi-pizzeria.jpg") center / contain no-repeat;
     background-color: var(--color-fuente);
     order: 1;
+}
+
+#challenge-bief {
+    background: url("../../img/challenge-bief.png") center / contain no-repeat;
+    background-color: var(--color-fuente);
 }
 
 .experiencia-container__experiencia__descripcion {
